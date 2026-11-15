@@ -184,7 +184,7 @@ Base URL: `/api`
 
 ## Live Application
 
-**Frontend:** https://io-t-device-status-monitoring.vercel.app
+**Frontend:** https://iot-device-status-monitoring.vercel.app/
 
 **GitHub Repository:** https://github.com/nivetithaJ2/IoT-Device-Status-Monitoring
 
