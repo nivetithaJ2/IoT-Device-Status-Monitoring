@@ -1,4 +1,4 @@
-https://io-t-device-status-monitoring.vercel.app
+https://iot-device-status-monitoring.vercel.app/
 
 # IoT Device Status Monitoring System
 
