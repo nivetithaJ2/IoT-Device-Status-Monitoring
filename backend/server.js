@@ -1,13 +1,12 @@
 
+require("dotenv").config();
+
 const express = require("express");
 const cors = require("cors");
-const dotenv = require("dotenv");
 
 const connectDB = require("./config/db");
 const deviceRoutes = require("./routes/deviceRoutes");
 const alertRoutes = require("./routes/alertRoutes");
-
-dotenv.config();
 
 const app = express();
 
@@ -42,7 +41,7 @@ const startServer = async () => {
   try {
     await connectDB();
 
-    app.listen(PORT, () => {
+    app.listen(PORT, "0.0.0.0", () => {
       console.log(`IoT Backend running on port ${PORT}`);
     });
   } catch (error) {
